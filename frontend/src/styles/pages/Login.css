@@ -1,0 +1,55 @@
+.auth-card { max-width: 420px; }
+.error { color: #b91c1c; margin-top: 0; }
+.full-bleed { 
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: -16px; /* negate container top padding to touch navbar */
+}
+.login-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0; /* no gap so it looks like exact halves */
+  align-items: stretch;
+  min-height: calc(100vh - 64px); 
+  background: #F0F4F8; /* page background distinct from nav */
+}
+.login-left { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+.login-img { 
+  width: 100%;
+  height: 100%;
+  border-radius: 3%;
+  object-fit: cover;
+  border: 0;          /* flush image */
+}
+.login-right { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    padding: 24px; 
+    background: #E3EAF2; /* surface per palette */
+}
+*{
+        background: #E3EAF2; 
+}
+
+@media (max-width: 900px) {
+  .login-split { grid-template-columns: 1fr; }
+  .login-left { display: none; }
+}
+
+/* Local base styles (no global dependency) */
+.page-title { font-size: 28px; margin: 0 0 16px; color: #1C2B39; }
+.card { background: #E3EAF2; border: 1px solid #E3EAF2; border-radius: 12px; padding: 16px; box-shadow: 0 10px 20px rgba(2,6,23,0.04); }
+.stack { display: grid; gap: 12px; }
+.btn { display: inline-flex; align-items: center; justify-content: center; padding: 10px 14px; border-radius: 10px; border: 1px solid #E3EAF2; background: #fff; color: #1C2B39; cursor: pointer; }
+.btn-primary { background: #0E7490; color: #ffffff; border-color: #0E7490; }
+.btn-primary:hover { background: #0b5f76; }
+input { width: 100%; padding: 10px 12px; border-radius: 10px; border: 1px solid #E3EAF2; color: #1C2B39; }
+input:focus { outline: 3px solid rgba(14, 116, 144, 0.25); outline-offset: 2px; border-color: #0E7490; }

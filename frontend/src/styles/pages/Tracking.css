@@ -1,0 +1,21 @@
+.person-list { display: grid; gap: 12px; }
+.person-card { padding: 14px; }
+.pc-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.pc-name { font-weight: 600; font-size: 16px; }
+.pc-room { color: #475569; }
+.pc-meta { display: flex; align-items: center; justify-content: space-between; color: #475569; font-size: 13px; }
+.pc-status { display: inline-flex; align-items: center; gap: 8px; }
+.dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+.dot-green { background: #16a34a; }
+.dot-red { background: #991b1b; }
+.label-active { color: #166534; font-weight: 600; }
+.label-inactive { color: #991b1b; font-weight: 600; }
+.status-online { color: #16a34a; }
+.status-offline { color: #dc2626; }
+
+/* Local base styles for this page */
+.page-title { font-size: 28px; margin: 0 0 16px; color: #0f172a; }
+.card { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px; box-shadow: 0 10px 20px rgba(2,6,23,0.04); }
+.badge { display:inline-block; padding: 4px 8px; border-radius: 999px; font-size: 12px; border:1px solid #e2e8f0; background:#fff; }
+.badge-online { color:#166534; background:#dcfce7; border-color:#86efac; }
+.badge-offline { color:#991b1b; background:#fee2e2; border-color:#fecaca; }

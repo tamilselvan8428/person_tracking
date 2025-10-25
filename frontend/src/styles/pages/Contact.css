@@ -1,0 +1,9 @@
+.contact-status { color: #0E7490; margin-top: 0; }
+.contact-card { background: #E3EAF2; border: 1px solid #E3EAF2; border-radius: 12px; padding: 16px; box-shadow: 0 10px 20px rgba(2,6,23,0.04); }
+.page-title { font-size: 28px; margin: 0 0 16px; color: #1C2B39; }
+.contact-form { display: grid; gap: 12px; max-width: 520px; }
+input, textarea { width: 100%; padding: 10px 12px; border-radius: 10px; border: 1px solid #E3EAF2; background: #ffffff; color: #1C2B39; }
+textarea { resize: vertical; }
+.btn { display: inline-flex; align-items: center; justify-content: center; padding: 10px 14px; border-radius: 10px; border: 1px solid #E3EAF2; background: #fff; color: #1C2B39; cursor: pointer; }
+.btn-primary { background: #0E7490; color: #ffffff; border-color: #0E7490; }
+.btn-primary:hover { background: #0b5f76; }

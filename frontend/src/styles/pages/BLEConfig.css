@@ -1,0 +1,13 @@
+.ble-status { margin: 8px 0; color: #627D98; }
+.ble-form { display: grid; gap: 12px; max-width: 480px; }
+.ble-actions { display: flex; gap: 10px; }
+.note { font-size: 12px; color: #627D98; }
+
+/* Local base styles using Sea Foam palette */
+.page-title { font-size: 28px; margin: 0 0 16px; color: #1C2B39; }
+.card { background: #E3EAF2; border: 1px solid #E3EAF2; border-radius: 12px; padding: 16px; box-shadow: 0 10px 20px rgba(2,6,23,0.04); }
+.stack { display: grid; gap: 12px; }
+.btn { display: inline-flex; align-items: center; justify-content: center; padding: 10px 14px; border-radius: 10px; border: 1px solid #E3EAF2; background: #fff; color: #1C2B39; cursor: pointer; }
+.btn-primary { background: #0E7490; color: #ffffff; border-color: #0E7490; }
+.btn-primary:hover { background: #0b5f76; }
+input, select { width: 100%; padding: 10px 12px; border-radius: 10px; border: 1px solid #E3EAF2; background: #ffffff; color: #1C2B39; }

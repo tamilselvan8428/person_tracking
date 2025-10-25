@@ -1,0 +1,47 @@
+.section { margin-top: 16px; }
+.form { max-width: 360px; margin: 0 auto; }
+
+/* Sea Foam palette applied */
+.page-title { font-size: 28px; margin: 0 0 16px; color: #1C2B39; }
+.card { background: #E3EAF2; border: 1px solid #E3EAF2; border-radius: 12px; padding: 16px; box-shadow: 0 10px 20px rgba(28,43,57,0.06); }
+
+/* Center and box each section */
+.section { 
+  background: #E3EAF2; 
+  border: 1px solid #E3EAF2; 
+  border-radius: 12px; 
+  padding: 16px; 
+  box-shadow: 0 10px 20px rgba(28,43,57,0.06); 
+  max-width: 800px; 
+  margin: 16px auto; 
+  button{
+    background-color: #0E7490;
+    color: #ffffff;
+    font-size: 100%;
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: 1px solid #E3EAF2;
+    cursor: pointer;
+  }
+}
+
+/* Widgets layout */
+.widgets { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+.widget { background: #E3EAF2; border: 1px solid #E3EAF2; border-radius: 12px; padding: 14px; }
+.widget-title { font-size: 14px; color: #627D98; margin: 0 0 6px; }
+.widget-value { font-size: 24px; color: #1C2B39; font-weight: 700; }
+
+/* Tables */
+.table-wrap { width: 100%; overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; background: #fff; }
+th, td { padding: 10px 12px; border-bottom: 1px solid #E3EAF2; text-align: left; color: #1C2B39; }
+thead th { background: #E3EAF2; color: #1C2B39; }
+tbody tr:hover { background: #F0F4F8; }
+
+/* Forms & controls */
+.stack { display: grid; gap: 12px; }
+input, select { width: 100%; padding: 10px 12px; border-radius: 10px; border: 1px solid #E3EAF2; background: #fff; color: #1C2B39; }
+input:focus, select:focus { outline: 3px solid rgba(14,116,144,0.25); outline-offset: 2px; border-color: #0E7490; }
+.btn { display: inline-flex; align-items: center; justify-content: center; padding: 10px 14px; border-radius: 10px; border: 1px solid #E3EAF2; background: #fff; color: #1C2B39; cursor: pointer; }
+.btn-primary { background: #0E7490; color: #ffffff; border-color: #0E7490; }
+.btn-primary:hover { background: #0b5f76; }
